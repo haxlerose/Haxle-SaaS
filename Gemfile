@@ -7,6 +7,8 @@ end
 
 gem 'rails', '~> 5.1.5'
 gem 'pg', '>= 0.18', '< 2.0'
+gem 'devise'
+gem 'milia'
 gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -32,3 +34,5 @@ group :production do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'activerecord-session_store', github: 'rails/activerecord-session_store'
