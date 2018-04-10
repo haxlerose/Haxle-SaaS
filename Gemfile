@@ -7,6 +7,7 @@ end
 
 gem 'rails', '~> 5.1.5'
 gem 'pg', '>= 0.18', '< 2.0'
+gem 'jquery-rails'
 gem 'devise'
 gem 'milia'
 gem 'puma', '~> 3.7'
@@ -16,6 +17,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jbuilder', '~> 2.5'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
+gem 'bootstrap-datepicker-rails'
 
 
 group :development, :test do
